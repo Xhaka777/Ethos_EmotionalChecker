@@ -43,7 +43,7 @@ export default function TabLayout() {
           ),
         }}
       />
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="insights"
         options={{
           title: 'Insights',
@@ -51,7 +51,7 @@ export default function TabLayout() {
             <BarChart3 size={size} color={color} />
           ),
         }}
-      />
+      /> */}
       <Tabs.Screen
         name="settings"
         options={{
